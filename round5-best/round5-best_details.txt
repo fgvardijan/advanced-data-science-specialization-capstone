@@ -1,0 +1,10 @@
+experiment_name,fraud_detection_model
+random_method,uniform_mersenne
+reduction_method,correlation
+reduction_interval,50
+reduction_window,25
+reduction_threshold,0.2
+reduction_metric,val_f1score
+complete_time,10/23/19/16:52
+x_shape,"(699, 95)"
+y_shape,"(699,)"
