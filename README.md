@@ -1,5 +1,5 @@
 # Auto Insurance Claims Fraud Detection
-This is a Capstone project for IBM Advanced Data Science Specialization. Check out [youtube video in which I explaining the process.](https://www.youtube.com/watch?v=DBlM_B11KvI)__.
+This is a Capstone project for IBM Advanced Data Science Specialization. Check out [youtube video in which I explain the process.](https://www.youtube.com/watch?v=DBlM_B11KvI).
 
 
 In this project I've demonstrated usage of important concepts and technologies such as:
@@ -13,15 +13,15 @@ In this project I've demonstrated usage of important concepts and technologies s
     * Model Deployment
 
 * __Hyperparameter tuning and neural network architecture tuning using `talos`__
-* __Creation of atomic assets and documenting the architectural decisions for repeatablity and reuse
+* __Creation of atomic assets and documenting the architectural decisions for repeatablity and reuse__
 
 Work is structured in five notebooks, each one focusing on one phase of data science process. The reason of this __reuse__ - every task has a clear purpose and defined work product (e.g. jupyter notebook, a script or a docker container). Naming convention make it easy to collaborate and reuse.
-1) __EDA - Explorative Data Analysis__
+1) __EDA - Exploratory Data Analysis__
     * Identify quality issues (e.g. missing values, wrong measurements, …) 
     * Assess feature quality and relevance (e.g. use correlation matrix)
     * Get an idea on the values distribution using statistical measures and visualizations
     
-2) __ETL - Data cleasing__
+2) __ETL - Data cleansing__
     * Data Types
     * Ranges
     * Emptiness
@@ -47,9 +47,9 @@ Work is structured in five notebooks, each one focusing on one phase of data sci
      * Defining the Parameter Space Boundary
      * Run the Hyperparameter Scan
      * Analysing the Scan results
-     * Narrow down the search areas and repeat
+     * Narrow down the Hyperparameter space and repeat
 
-Hyperparameter space and network architecture for exploration.
+Example of Hyperparameter space and network architecture options for exploration with automated exploration. Total of 540,000 permutations!
 ``` python
 p = {'lr': (0.5, 5, 10),      
      'first_neuron':[4, 8, 16, 32, 64],
